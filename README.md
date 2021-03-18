@@ -11,7 +11,7 @@
   1. Showcase photos
   2. audio
   3. video clips
-    - from the band's catalog.
+        - from the band's catalog.
 
   4. Publicise the band's upcoming shows and/or availability to perform at events such as weddings and corporate parties.
 

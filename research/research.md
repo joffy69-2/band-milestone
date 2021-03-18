@@ -1,15 +1,35 @@
 # Compare and contrast three band websites from different genres
-1. Alabama 3
-- genre
-- pros
+1. Alabama 3 https://www.alabama3.co.uk/
+- genre sweet country acid house music
+- pros things i like 
+    - the single pixel bottom to indicate more scrolling
+    - a simple vertical arrangement of information makes the site look good on all media
+    - simple colour theme dark/light/dark/light/dark with red buttons and headlines in opposite
+    - I like the transition used for the menu viz falls down from top
+    - navbar is v simple
 - cons
-2. Iron Maiden
-- genre
+    - the menu is very big
+---
+2. Iron Maiden https://www.ironmaiden.com/
+- genre heavy metal
 - pros
+    - they get a lot of information onto the screen
+    - visually arresting
+    - maintains the band ?ethos?
+    - they've also got the dark/light/dark/light/dark thing going
 - cons
-3. Royal Philhamonic
-- genre
+    - very complicated
+    ---
+3. Royal Philhamonic Orchestra https://www.rpo.co.uk/
+- genre classical
 - pros 
+    - a lot of info on one page
+    - mobile looks better than desktop
+    - nice spiral design on desktop
+    - lots of donate buttons
 - cons
+    - very trad design
+    - not much visual interest (maybe intentional)
+    - maybe too much on one page
 ---
 ## copyright information

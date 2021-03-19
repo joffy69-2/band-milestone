@@ -9,13 +9,14 @@
     - navbar is v simple
 - cons
     - the menu is very big
+    - not obviously alabama3 except for title
 ---
 2. Iron Maiden https://www.ironmaiden.com/
 - genre heavy metal
 - pros
     - they get a lot of information onto the screen
     - visually arresting
-    - maintains the band ?ethos?
+    - maintains the band ?ethos?brand?
     - they've also got the dark/light/dark/light/dark thing going
 - cons
     - very complicated
@@ -33,3 +34,4 @@
     - maybe too much on one page
 ---
 ## copyright information
+

@@ -20,9 +20,12 @@
 ---
 
 # The Real Faux Furs band website
-> One or two paragraphs providing an overview of your project.
 
-> Essentially, this part is your sales pitch.
+The fictional band (i hope, I have checked and can't find one) The Real Faux Furs (sytle: unknown) want a bespoke website
+to promote their assault on the upper reaches of the charts. They need to enthuse their support and generate both more
+ticket sales and merchanising sales. They also want to increase the number of gigs they play.
+
+
 
 ---
 

@@ -20,7 +20,7 @@
     - they've also got the dark/light/dark/light/dark thing going
 - cons
     - very complicated
-    ---
+---
 3. Royal Philhamonic Orchestra https://www.rpo.co.uk/
 - genre classical
 - pros 
@@ -33,5 +33,7 @@
     - not much visual interest (maybe intentional)
     - maybe too much on one page
 ---
+
+I think I'll be going for restrained and elegant - Iron maiden are definitely neither
 ## copyright information
 

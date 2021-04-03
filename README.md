@@ -85,8 +85,20 @@ This section is also where you would share links to any wireframes, mockups, dia
 |for hire     |2               |2                |4          |
 
 3. Structure plane - how is info structured and logically grouped
+    - history/gallery/video/audio are media 
+    - shop is merchandise
+    - giglist/forhire are info
+
 4. Skeleton plane - info presentation
+    - as in a3 and im one long page with page links, then links to gig page and shop
+
 5. Surface plane - finished product look like- colors, typography design element
+    - looking for a dark colour (not black) and a light colour (not white)
+    - other colours will depend on the stock photos I can find
+    - typography check whats popular at the moment on google fonts
+    - remember three click rule
+    - we want buttons to change colour on select/process
+    
 
 ---
 Features

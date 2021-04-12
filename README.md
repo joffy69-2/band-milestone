@@ -98,7 +98,8 @@ This section is also where you would share links to any wireframes, mockups, dia
     - typography check whats popular at the moment on google fonts
     - remember three click rule
     - we want buttons to change colour on select/process
-    
+    43. Blast Galaxy
+#0F0C24 #A350A3 #C1436D
 
 ---
 Features
@@ -161,6 +162,15 @@ Credits
     - The text for section Y was copied from the Wikipedia article Z
 2. Media
     - The photos used in this site were obtained from ...
+    https://thumbs.dreamstime.com/z/rock-band-jumping-4630443.jpg
+    https://i.pinimg.com/originals/3b/bd/e2/3bbde2a9d5fd6a3b3bdb6f9f45672473.jpg
+    https://i0.wp.com/www.healthfitnessrevolution.com/wp-content/uploads/2017/02/iStock-144220369.jpg?fit=1493%2C703
+    https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fyoung-musical-band-8968794.jpg&f=1&nofb=1
+    https://thumbs.dreamstime.com/b/rock-band-stage-14119612.jpg
+    https://cdn1.vectorstock.com/i/1000x1000/53/20/rock-band-vector-35320.jpg
+    http://images.dailyhive.com/20161125133559/shutterstock_416610790.jpg
+
+    https://designshack.net/articles/trends/best-website-color-schemes/
 3. Acknowledgements
     - I received inspiration for this project from X
 
@@ -168,7 +178,21 @@ Credits
 Things to remember:
     - three click rule
     
+colour scheme possibles
+26. Igor
+#000000 #FEFEFE #FDEE30
 
+32. Sheerlink by RTX
+#4A2C40 #E9BD43 #7D3780
+
+34. Loic Sciampagna Portfolio
+#141824 #FFB600 #0049FF
+
+37. Tappezzeria Novecento
+#191919 #FAB162
+
+43. Blast Galaxy
+#0F0C24 #A350A3 #C1436D
 
 ---
 ---

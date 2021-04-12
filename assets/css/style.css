@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;200;300;400;500;700;900&display=swap');
+
+#bandpic{
+
+    background-image: url(../pictures/band7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 70px);
+}
+
+#bandtitle{
+    padding: 50%;
+}

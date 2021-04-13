@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;200;300;400;500;700;900&display=swap');
 
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 #bandpic{
 
     background-image: url(../pictures/band7.jpg);
@@ -7,8 +13,33 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(100vh - 70px);
+    /* from https://blog.ekohordan.com/posts/full-viewport-height-css/ */
 }
 
 #bandtitle{
-    padding: 50%;
+    
+    font-family: 'Exo', 'Roboto', sans-serif;
+    color: snow;
+    font-size: 2.5em;
+
 }
+
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  
+  /* from https://www.w3schools.com/Css/css_positioning.asp */
+}
+
+.menu-text{
+    font-family: 'Exo', 'Roboto', sans-serif;
+    color: snow;
+}
+
+header > div {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+

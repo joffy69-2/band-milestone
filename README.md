@@ -160,6 +160,7 @@ Credits
 ---
 1.Content
     - The text for section Y was copied from the Wikipedia article Z
+
 2. Media
     - The photos used in this site were obtained from ...
     https://thumbs.dreamstime.com/z/rock-band-jumping-4630443.jpg
@@ -174,6 +175,9 @@ Credits
 3. Acknowledgements
     - I received inspiration for this project from X
 
+4. Code 
+    - https://blog.ekohordan.com/posts/full-viewport-height-css/
+    - https://www.w3schools.com/Css/css_positioning.asp
 
 Things to remember:
     - three click rule

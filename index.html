@@ -17,12 +17,13 @@
     <header>
         <div class="float-right">
             <nav class="container-fluid navbar">
-                <a class="nav-link menu-text" href="#" id="navbarDropdownMenuLink"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link menu-text" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown" data-bs-offset="10,20">
                     <i class="fas fa-bars fa-3x"></i>
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">History</a>
+
+                <div class="dropdown-menu" id="drop-d-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Meet the Band</a>
                     <a class="dropdown-item" href="#">Gallery</a>
                     <a class="dropdown-item" href="#">Gigs</a>
                     <a class="dropdown-item" href="#">Merchandise</a>
@@ -35,13 +36,89 @@
     <section id="frontpage">
         <div id="bandpic">
             <div class="center">
-                <h1 id="bandtitle">The Real Faux Furs</h1>
+                <h1 class="title font-size">The Real Faux Furs</h1>
             </div>
             <!-- nb use bootstrap grid for layout -->
 
         </div>
     </section>
-    <section id="history">History</section>
+    <section id="history"><div><h2 class="title">Meet the band</h2></div>
+        <div>
+            <div class="card-group">
+                <div class="card">
+                    <img src="../assets/pictures/dave.jpg" class="card-img-top" alt="Dave">
+                    <div class="card-body">
+                        <h5 class="card-title">Dave</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo
+                            dolor, blandit eu dui cursus, sagittis malesuada elit. Vestibulum faucibus, ipsum vitae
+                            commodo rhoncus, sem nisl blandit nunc, sed mattis enim quam sed elit. Nulla eu sapien
+                            euismod sem vestibulum faucibus non vel est. Morbi vel ligula pharetra, fringilla mi
+                            pharetra, suscipit magna. Etiam id iaculis purus. Aliquam quis elementum magna. Donec
+                            convallis mauris at tellus lobortis, eu mollis est consequat. Sed leo sapien, consequat in
+                            finibus sed, volutpat id mauris.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../assets/pictures/jim.jpg" class="card-img-top" alt="Jim">
+                    <div class="card-body">
+                        <h5 class="card-title">Jim</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../assets/pictures/ben.jpg" class="card-img-top" alt="Ben">
+                    <div class="card-body">
+                        <h5 class="card-title">Ben</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../assets/pictures/tony.jpg" class="card-img-top" alt="Tony">
+                    <div class="card-body">
+                        <h5 class="card-title">Tony</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo
+                            dolor, blandit eu dui cursus, sagittis malesuada elit. Vestibulum faucibus, ipsum vitae
+                            commodo rhoncus, sem nisl blandit nunc, sed mattis enim quam sed elit. Nulla eu sapien
+                            euismod sem vestibulum faucibus non vel est. Morbi vel ligula pharetra, fringilla mi
+                            pharetra, suscipit magna. Etiam id iaculis purus. Aliquam quis elementum magna. Donec
+                            convallis mauris at tellus lobortis, eu mollis est consequat. Sed leo sapien, consequat in
+                            finibus sed, volutpat id mauris.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../assets/pictures/beth.jpg" class="card-img-top" alt="Beth">
+                    <div class="card-body">
+                        <h5 class="card-title">Beth</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo
+                            dolor, blandit eu dui cursus, sagittis malesuada elit. Vestibulum faucibus, ipsum vitae
+                            commodo rhoncus, sem nisl blandit nunc, sed mattis enim quam sed elit. Nulla eu sapien
+                            euismod sem vestibulum faucibus non vel est. Morbi vel ligula pharetra, fringilla mi
+                            pharetra, suscipit magna. Etiam id iaculis purus. Aliquam quis elementum magna. Donec
+                            convallis mauris at tellus lobortis, eu mollis est consequat. Sed leo sapien, consequat in
+                            finibus sed, volutpat id mauris.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="gallery">Gallery</section>
     <section id="gig">Gigs</section>
     <section id="shop">Shop</section>

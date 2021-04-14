@@ -16,12 +16,15 @@ body{
     /* from https://blog.ekohordan.com/posts/full-viewport-height-css/ */
 }
 
-#bandtitle{
+.title{
     
     font-family: 'Exo', 'Roboto', sans-serif;
-    color: snow;
-    font-size: 2.5em;
+    color: #C1436D;
+    
+}
 
+.font-size{
+    font-size: 3em;
 }
 
 .center {
@@ -35,7 +38,7 @@ body{
 
 .menu-text{
     font-family: 'Exo', 'Roboto', sans-serif;
-    color: snow;
+    color: #A350A3;
 }
 
 header > div {
@@ -43,3 +46,12 @@ header > div {
     margin-top: 20px;
 }
 
+#drop-d-menu{
+    left: auto;
+    right: 4px;
+    /* https://www.sitepoint.com/community/t/css-drop-down-menu-is-going-off-screen-when-dropping-down/3300/2 */
+}
+
+div > h2{
+    text-align: center;
+}

@@ -170,6 +170,12 @@ Credits
     https://thumbs.dreamstime.com/b/rock-band-stage-14119612.jpg
     https://cdn1.vectorstock.com/i/1000x1000/53/20/rock-band-vector-35320.jpg
     http://images.dailyhive.com/20161125133559/shutterstock_416610790.jpg
+    https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fbb%2Faf%2Ffe%2Fbbaffe583e8a33567590ee84d417cbdb.jpg&f=1&nofb=1
+    https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.johnlund.com%2FImages%2F10003500346.JPG&f=1&nofb=1
+    https://www.johnlund.com/Images/10003500346.JPG
+    https://www.hairfinder.com/haircollections2/rock-star-hairstyle.jpg
+    https://images.esellerpro.com/2152/I/434/03/lrgEW-8112.jpg
+    http://clipartmag.com/images/rock-star-clipart-5.jpg
 
     https://designshack.net/articles/trends/best-website-color-schemes/
 3. Acknowledgements
@@ -178,6 +184,7 @@ Credits
 4. Code 
     - https://blog.ekohordan.com/posts/full-viewport-height-css/
     - https://www.w3schools.com/Css/css_positioning.asp
+    - https://www.sitepoint.com/community/t/css-drop-down-menu-is-going-off-screen-when-dropping-down/3300/2
 
 Things to remember:
     - three click rule
@@ -201,7 +208,7 @@ colour scheme possibles
 ---
 ---
 
-
+Bootstrap things to include: scrollspy for menu dropdown
 
 
 

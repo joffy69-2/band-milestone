@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;200;300;400;500;700;900&display=swap');
 
-body{
+*{
     margin: 0;
     padding: 0;
     border: 0;
@@ -49,9 +49,28 @@ header > div {
 #drop-d-menu{
     left: auto;
     right: 4px;
-    /* https://www.sitepoint.com/community/t/css-drop-down-menu-is-going-off-screen-when-dropping-down/3300/2 */
+    /* from https://www.sitepoint.com/community/t/css-drop-down-menu-is-going-off-screen-when-dropping-down/3300/2 */
 }
 
 div > h2{
+    padding: 20px 0 15px 0;
     text-align: center;
+}
+
+div > h4{
+    padding: 20px 0 15px 0;
+    text-align: center;
+}
+
+#photo{
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+  /* from love-running project/code institute */
+}
+
+#photo img{
+  width: 100%;
+  /* from love-running project/code institute */
 }

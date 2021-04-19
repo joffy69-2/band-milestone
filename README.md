@@ -212,11 +212,17 @@ Bootstrap things to include: scrollspy for menu dropdown
 
 menu dropdown on wrong side???
 
+#A350A3 for clickable items
+#C1436D for dark background
+#C1436D for dark text
+#e0a0b6 for light text
+an off white for light bkground
 
 
+check this out! https://hackerthemes.com/bootstrap-themes/demo/neon-glow/
 
+for free photos https://stocksnap.io/search/rock+band
 
-
-
+action: on scroll
 
 

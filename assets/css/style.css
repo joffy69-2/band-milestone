@@ -126,3 +126,8 @@ thead{
     display: flex;
     justify-content: center;
 }
+
+#shop .card{
+    background-color: #A350A3;
+    color: #e0a0b6;
+}

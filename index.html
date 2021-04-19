@@ -16,19 +16,19 @@
 
 <body>
     <header>
-        <div class="float-right">
-            <nav class="container-fluid navbar">
+        <div class="float-right fixed-top">
+            <nav class="container-fluid navbar ">
                 <a class="nav-link menu-text" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown" data-bs-offset="10,20">
                     <i class="fas fa-bars fa-3x"></i>
                 </a>
 
                 <div class="dropdown-menu" id="drop-d-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Meet the Band</a>
-                    <a class="dropdown-item" href="#">Gallery</a>
-                    <a class="dropdown-item" href="#">Gigs</a>
-                    <a class="dropdown-item" href="#">Merchandise</a>
-                    <a class="dropdown-item" href="#">Media</a>
+                    <a class="dropdown-item" href="#frontpage">Home</a>
+                    <a class="dropdown-item" href="#history">Meet the band</a>
+                    <a class="dropdown-item" href="#photo">Gallery</a>
+                    <a class="dropdown-item" href="#gig">Gigs</a>
+                    <a class="dropdown-item" href="#shop">Merchandise</a>
                 </div>
 
             </nav>
@@ -37,7 +37,7 @@
     <section id="frontpage">
         <div id="bandpic">
             <div class="center">
-                <h1 class="title font-size">The Real Faux Furs</h1>
+                <h1 class="title font-size text-light">The Real Faux Furs</h1>
             </div>
             <!-- nb use bootstrap grid for layout -->
 
@@ -128,13 +128,15 @@
             </div>
         </div>
     </section>
-    <section id="gallery">
-
+    <section id="photo" class="bkgr-color-d">
         <div>
+            <h2 class="title text-light">Gallery</h2>
+        </div>
+        <div id="gallery">
 
-            <h2 class="title">Gallery</h2>
-            <img src="../assets/pictures/band1resize.jpg">
-            <img src="../assets/pictures/band2resize.jpg">
+
+            <img src="../assets/pictures/band1.jpg">
+            <img src="../assets/pictures/band2.jpg">
             <img src="../assets/pictures/band3.jpg">
             <img src="../assets/pictures/band4.jpg">
             <img src="../assets/pictures/band5.jpg">
@@ -149,10 +151,43 @@
         <div>
             <h2 class="title">Gigs</h2>
         </div>
-    </section>
-    <section id="shop">
         <div>
-            <h2 class="title">Merchandise</h2>
+            <table class="table table-center menu-text">
+                <caption>List of users</caption>
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">20/04/2021</th>
+                        <td>20:00</td>
+                        <td>The Bierkeller, SomewhereOrOther</td>
+                        <td><button type="button" class="btn btn-primary btn-lg">Buy Tickets</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">21/04/2021</th>
+                        <td>20:00</td>
+                        <td>The Astoria, AnyOtherTown</td>
+                        <td><button type="button" class="btn btn-primary btn-lg">Buy Tickets</button></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">25/04/2021</th>
+                        <td>19:00</td>
+                        <td>The Assembly Rooms, Anytown</td>
+                        <td><button type="button" class="btn btn-primary btn-lg" disabled>   Sold Out   </button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section id="shop" class="bkgr-color-d">
+        <div>
+            <h2 class="title text-light">Merchandise</h2>
         </div>
     </section>
 

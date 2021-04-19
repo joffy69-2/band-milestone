@@ -114,4 +114,15 @@ thead{
 #social{
     margin: 20px;
     padding: 0 0 20px 0;
+    text-align: center;
+}
+
+#contact{
+    margin: 20px;
+    padding: 0 
+}
+
+#items{
+    display: flex;
+    justify-content: center;
 }

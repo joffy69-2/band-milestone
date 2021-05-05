@@ -62,6 +62,19 @@ div > h4{
     text-align: center;
 }
 
+.card-title{
+    text-align: center;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-text{
+    text-align: center;
+}
+
 #gallery{
    
   clear: both;
@@ -131,3 +144,40 @@ thead{
     background-color: #A350A3;
     color: #e0a0b6;
 }
+
+#gig table {
+    margin-bottom: 31px;
+}
+
+@media screen and (max-width: 943px) {
+    #gallery {
+    column-count: 3;
+    padding: 0;
+    }
+
+     /*.card-text {
+        display: none;
+    }
+
+    .card {
+        word-wrap: none;
+    }*/
+}
+
+
+@media screen and (max-width: 800px) {
+    #gallery {
+    column-count: 2;
+    padding: 0;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+    .card {
+        word-wrap: none;
+    }
+}
+
+

@@ -175,13 +175,8 @@ thead{
         display: none;
     }
 
-<<<<<<< HEAD
-    div .card .mb-3 {
-        word-wrap: none;
-=======
     .card {
         word-wrap: normal;
->>>>>>> temp-branch
     }
 }
 

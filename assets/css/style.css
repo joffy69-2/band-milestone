@@ -175,7 +175,7 @@ thead{
         display: none;
     }
 
-    .card {
+    div .card .mb-3 {
         word-wrap: none;
     }
 }

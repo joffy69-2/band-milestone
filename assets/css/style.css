@@ -125,7 +125,7 @@ thead{
 }
 
 #social{
-    margin: 20px;
+   margin-right: 30px;
     padding: 0 0 20px 0;
     text-align: center;
 }
@@ -178,8 +178,27 @@ thead{
     .card {
         word-wrap: normal;
     }
+
+    .icon-lrg {
+        display: none;
+    }
+
+    #items h5 {
+        font-size: smaller;
+    }
+
+}
+
+@media screen and (min-width: 800px){
+    .icon-sml{
+        display: none;
+    }
 }
 
 .bottom {
     margin-top: auto;
+}
+
+footer > div {
+    margin-top: 20px;
 }

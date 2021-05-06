@@ -185,6 +185,7 @@ Credits
     - https://blog.ekohordan.com/posts/full-viewport-height-css/
     - https://www.w3schools.com/Css/css_positioning.asp
     - https://www.sitepoint.com/community/t/css-drop-down-menu-is-going-off-screen-when-dropping-down/3300/2
+    - https://stackoverflow.com/questions/28334845/changing-html-from-css-media-query
 
 Things to remember:
     - three click rule

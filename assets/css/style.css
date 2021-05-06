@@ -155,13 +155,13 @@ thead{
     padding: 0;
     }
 
-     /*.card-text {
+     .card-text {
         display: none;
     }
 
     .card {
-        word-wrap: none;
-    }*/
+        word-wrap: normal;
+    }
 }
 
 
@@ -175,9 +175,16 @@ thead{
         display: none;
     }
 
+<<<<<<< HEAD
     div .card .mb-3 {
         word-wrap: none;
+=======
+    .card {
+        word-wrap: normal;
+>>>>>>> temp-branch
     }
 }
 
-
+.bottom {
+    margin-top: auto;
+}

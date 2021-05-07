@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Contact Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contact Us</title>
 </head>
+
 <body>
     <header>
         <div class="float-right fixed-top">
@@ -33,82 +36,83 @@
         </div>
     </header>
 
-<section>
-    <div id="bandpic"><form>
-  <div class="row mb-3">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3">
-    </div>
-  </div>
-  <div class="row mb-3">
-    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3">
-    </div>
-  </div>
-  <fieldset class="row mb-3">
-    <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-    <div class="col-sm-10">
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-        <label class="form-check-label" for="gridRadios1">
-          First radio
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-        <label class="form-check-label" for="gridRadios2">
-          Second radio
-        </label>
-      </div>
-      <div class="form-check disabled">
-        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-        <label class="form-check-label" for="gridRadios3">
-          Third disabled radio
-        </label>
-      </div>
-    </div>
-  </fieldset>
-  <div class="row mb-3">
-    <div class="col-sm-10 offset-sm-2">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck1">
-        <label class="form-check-label" for="gridCheck1">
-          Example checkbox
-        </label>
-      </div>
-    </div>
-  </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
-</form></div>
-</section>
+    <section>
+        <div id="bandpic">
+            <div class="mid-pos">
+                <form>
+                    <div class="row mb-3">
+                        <label for="inputName" class="col-sm-2 col-form-label">Your Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputEmail" class="col-sm-2 col-form-label">Your Email Address</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputEmail">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="message-box" class="col-sm-2 col-form-label">Your Message</label>
+                        <div class="col-sm-10">
+
+                            <textarea class="form-control" id="message-box" name="message-box" rows="4"
+                                cols="50"></textarea>
+                        </div>
+                    </div>
+                    <fieldset class="row mb-3">
+                        <div class="input-group mb-3">
+                            
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option selected>You are a...</option>
+                                <option value="1">fan</option>
+                                <option value="2">promoter</option>
+                                <option value="3">journalist</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <div class="row mb-3">
+                        <div class="col-sm-10 offset-sm-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                <label class="form-check-label" for="gridCheck1">
+                                    You agree to our privacy statement
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
     <footer>
         <div>
-            
-                <span id="contact" class="float-left">
-                    <a class="menu-text" href="index.html" target="">Home</a>
-                </span>
-            
-            
-                <span id="social" class="float-right">
-                    <a href="https://www.twitter.com" target="_blank">
+
+            <span id="contact" class="float-left">
+                <a class="menu-text" href="index.html" target="">Home</a>
+            </span>
+
+
+            <span id="social" class="float-right">
+                <a href="https://www.twitter.com" target="_blank">
                     <i class="fab fa-twitter soc-med"></i></a>
-                    <a href="https://www.facebook.com" target="_blank">
+                <a href="https://www.facebook.com" target="_blank">
                     <i class="fab fa-facebook-f soc-med"></i></a>
-                    <a href="https://www.pinterest.com" target="_blank">
+                <a href="https://www.pinterest.com" target="_blank">
                     <i class="fab fa-pinterest soc-med"></i></a>
-                    <a href="https://www.instagram.com" target="_blank">
+                <a href="https://www.instagram.com" target="_blank">
                     <i class="fab fa-instagram soc-med"></i></a>
-                    <a href="https://www.soundcloud.com" target="_blank">
+                <a href="https://www.soundcloud.com" target="_blank">
                     <i class="fab fa-soundcloud soc-med"></i></a>
-                    
-                </span>
-            
+
+            </span>
+
         </div>
     </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -186,7 +186,8 @@ Credits
     - https://www.w3schools.com/Css/css_positioning.asp
     - https://www.sitepoint.com/community/t/css-drop-down-menu-is-going-off-screen-when-dropping-down/3300/2
     - https://stackoverflow.com/questions/28334845/changing-html-from-css-media-query
-
+    - https://www.w3docs.com/snippets/css/how-to-place-a-div-in-the-middle-of-the-screen-when-it-is-smaller-than-the-page.html
+    
 Things to remember:
     - three click rule
     

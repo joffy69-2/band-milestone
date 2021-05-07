@@ -216,3 +216,15 @@ a:hover{
 .soc-med{
     padding: 10px;
 }
+
+/* ------ from www.w3docs.com ----*/
+.mid-pos{
+     top: 50%;
+        left: 50%;
+        width: 30em;
+        height: auto;
+        transform: translate(-50%, -50%);
+        border: 1px solid #666;
+        background-color: #b9faac;
+        position: fixed;
+}

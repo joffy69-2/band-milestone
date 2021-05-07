@@ -228,3 +228,10 @@ a:hover{
         background-color: #b9faac;
         position: fixed;
 }
+
+.cen-con {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+}

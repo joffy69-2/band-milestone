@@ -8,6 +8,7 @@
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="assets/themes/bootstrap4-neon-glow.min.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact Us</title>
@@ -23,11 +24,11 @@
                 </a>
 
                 <div class="dropdown-menu " id="drop-d-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item menu-text" href="#frontpage">Home</a>
-                    <a class="dropdown-item menu-text" href="#history">Meet the band</a>
-                    <a class="dropdown-item menu-text" href="#photo">Gallery</a>
-                    <a class="dropdown-item menu-text" href="#gig">Gigs</a>
-                    <a class="dropdown-item menu-text" href="#shop">Merchandise</a>
+                    <a class="dropdown-item menu-text" href="index.html" target="_self">Home</a>
+                    <a class="dropdown-item menu-text" href="index.html#history">Meet the band</a>
+                    <a class="dropdown-item menu-text" href="index.html#photo">Gallery</a>
+                    <a class="dropdown-item menu-text" href="index.html#gig">Gigs</a>
+                    <a class="dropdown-item menu-text" href="index.html#shop">Merchandise</a>
                     <a class="dropdown-item menu-text" href="contact.html" target="_blank">Contact Us</a>
 
                 </div>
@@ -44,20 +45,20 @@
             <div class="mid-pos">
                 <form>
                     <div class="row mb-3">
-                        <label for="inputName" class="col-sm-2 col-form-label">Your Name</label>
-                        <div class="col-sm-10">
+                        <label for="inputName" class="col-sm-3 col-form-label text-light">Your Name</label>
+                        <div class="col-sm-9">
                             <input type="text" class="form-control" id="inputName">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="inputEmail" class="col-sm-2 col-form-label">Your Email Address</label>
-                        <div class="col-sm-10">
+                        <label for="inputEmail" class="col-sm-3 col-form-label text-light">Your Email Address</label>
+                        <div class="col-sm-9">
                             <input type="text" class="form-control" id="inputEmail">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label for="message-box" class="col-sm-2 col-form-label">Your Message</label>
-                        <div class="col-sm-10">
+                        <label for="message-box" class="col-sm-3 col-form-label text-light">Your Message</label>
+                        <div class="col-sm-9">
 
                             <textarea class="form-control" id="message-box" name="message-box" rows="4"
                                 cols="50"></textarea>
@@ -65,7 +66,7 @@
                     </div>
                     <fieldset class="row mb-3">
                         <div class="input-group mb-3">
-                            
+
                             <select class="form-select" id="fanprojour">
                                 <option selected>You are a...</option>
                                 <option value="1">fan</option>
@@ -78,17 +79,20 @@
                         <div class="col-sm-10 offset-sm-2">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                <label class="form-check-label" for="gridCheck1">
+                                <label class="form-check-label text-light" for="gridCheck1">
                                     You agree to our privacy statement
                                 </label>
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Send message</button>
+                    <div class="container">
+                        <button type="submit" class="btn btn-primary">Send message</button>
+                    </div>
                 </form>
             </div>
-            <div class="cen-con">
-                <h5 class="title font-size text-light">The Real Faux Furs privacy statement: you agree to allow us to store this information. On demand, we will delete all copies</h5>
+            <div class="cen-con-bot">
+                <h5 class="title font-size text-drk">The Real Faux Furs privacy statement: you agree to allow us to
+                    store this information. On demand, we will delete all copies</h5>
             </div>
         </div>
     </section>
@@ -102,15 +106,15 @@
 
             <span id="social" class="float-right">
                 <a href="https://www.twitter.com" target="_blank">
-                    <i class="fab fa-twitter soc-med"></i></a>
+                    <i class="fab fa-twitter soc-med social-color"></i></a>
                 <a href="https://www.facebook.com" target="_blank">
-                    <i class="fab fa-facebook-f soc-med"></i></a>
+                    <i class="fab fa-facebook-f soc-med social-color"></i></a>
                 <a href="https://www.pinterest.com" target="_blank">
-                    <i class="fab fa-pinterest soc-med"></i></a>
+                    <i class="fab fa-pinterest soc-med social-color"></i></a>
                 <a href="https://www.instagram.com" target="_blank">
-                    <i class="fab fa-instagram soc-med"></i></a>
+                    <i class="fab fa-instagram soc-med social-color"></i></a>
                 <a href="https://www.soundcloud.com" target="_blank">
-                    <i class="fab fa-soundcloud soc-med"></i></a>
+                    <i class="fab fa-soundcloud soc-med social-color"></i></a>
 
             </span>
 

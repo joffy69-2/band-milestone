@@ -189,6 +189,10 @@ Credits
     - https://www.w3docs.com/snippets/css/how-to-place-a-div-in-the-middle-of-the-screen-when-it-is-smaller-than-the-page.html
     - https://css-tricks.com/almanac/selectors/v/valid/
     
+    - dashlane work around
+        https://stackoverflow.com/questions/59939931/stop-dashlane-auto-fill-on-specific-input-fields  
+    
+     
 Things to remember:
     - three click rule
     
@@ -228,5 +232,4 @@ for free photos https://stocksnap.io/search/rock+band
 
 action: on scroll
 
-dashlane work around
-https://stackoverflow.com/questions/59939931/stop-dashlane-auto-fill-on-specific-input-fields
+

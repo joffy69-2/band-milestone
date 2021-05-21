@@ -1,5 +1,1 @@
-dashlane problem workaround
-
-dashlane uses js to insert css into forms
-to override, change mentions of email to eml
-and name to nm
+added design.md

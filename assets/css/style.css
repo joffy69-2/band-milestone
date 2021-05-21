@@ -65,6 +65,11 @@ div > h2{
 div > h4{
     padding: 20px 0 15px 0;
     text-align: center;
+    margin: 0 15px 0 15px;
+}
+
+.push-d{
+    margin-top: 30px;
 }
 
 .card-title{
@@ -155,62 +160,12 @@ thead{
     margin-bottom: 31px;
 }
 
-@media screen and (max-width: 992px) {
-    #gallery {
-    column-count: 2;
-    padding: 0;
-    }
-
-     .card-text {
-        display: none;
-    }
-
-    .card {
-        word-wrap: normal;
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    #gallery {
-    column-count: 1;
-    padding: 0;
-    }
-
-    .card-text {
-        display: none;
-    }
-
-    .card {
-        word-wrap: normal;
-    }
-
-    .icon-lrg {
-        display: none;
-    }
-
-    #items h5 {
-        font-size: smaller;
-    }
-
-}
-
-@media screen and (min-width: 768px){
-    .icon-sml{
-        display: none;
-    }
-}
-
 .bottom {
     margin-top: auto;
 }
 
 footer > div {
     margin-top: 20px;
-}
-
-.push-d{
-    padding-top: 10%;
 }
 
 a:hover{
@@ -259,4 +214,65 @@ a:hover{
 
 .social-color{
     color: #A350A3;
+}
+
+.icon-lrg{
+    padding-left: 30px;
+}
+
+.icon-sml{
+    padding-left: 15px;
+    
+}
+
+/* ------------------media queries ----------------------*/
+
+@media screen and (max-width: 992px) {
+    #gallery {
+    column-count: 2;
+    padding: 0;
+    }
+
+     .card-text {
+        display: none;
+    }
+
+    .card {
+        word-wrap: normal;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #gallery {
+    column-count: 1;
+    padding: 0;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+    .card {
+        word-wrap: normal;
+    }
+
+    .icon-lrg {
+        display: none;
+        
+    }
+
+    #items h5 {
+        font-size: smaller;
+    }
+
+    .push-d{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .icon-sml{
+        display: none;
+    }
 }

@@ -187,6 +187,7 @@ Credits
     - https://www.sitepoint.com/community/t/css-drop-down-menu-is-going-off-screen-when-dropping-down/3300/2
     - https://stackoverflow.com/questions/28334845/changing-html-from-css-media-query
     - https://www.w3docs.com/snippets/css/how-to-place-a-div-in-the-middle-of-the-screen-when-it-is-smaller-than-the-page.html
+    - https://css-tricks.com/almanac/selectors/v/valid/
     
 Things to remember:
     - three click rule
@@ -227,4 +228,5 @@ for free photos https://stocksnap.io/search/rock+band
 
 action: on scroll
 
-
+dashlane work around
+https://stackoverflow.com/questions/59939931/stop-dashlane-auto-fill-on-specific-input-fields

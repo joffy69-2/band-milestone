@@ -1,3 +1,5 @@
-further small changes to layout and css
+dashlane problem workaround
 
-end of day commit and push
+dashlane uses js to insert css into forms
+to override, change mentions of email to eml
+and name to nm

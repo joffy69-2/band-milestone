@@ -232,4 +232,5 @@ for free photos https://stocksnap.io/search/rock+band
 
 action: on scroll
 
-
+My password manager (Dashlane) has been injecting css into the site, using id/name ie emailaddress firstName etc 
+work around rename to, say, emladdress

@@ -92,12 +92,22 @@ div > h4{
   column-count: 4;
   column-gap: 0;
   /* from love-running project/code institute */
-  padding: 0 0 0 20%;
+ 
 }
 
 #gallery img{
   width: 100%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
   /* from love-running project/code institute */
+}
+
+.band-img{
+    
+    width: 60%;
 }
 
 .bkgr-color-d{
@@ -284,4 +294,11 @@ input:invalid {
 
 input:valid {
   background: red;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

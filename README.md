@@ -233,4 +233,21 @@ for free photos https://stocksnap.io/search/rock+band
 action: on scroll
 
 My password manager (Dashlane) has been injecting css into the site, using id/name ie emailaddress firstName etc 
-work around rename to, say, emladdress
+work around rename to, say, emladdress - nb this doesn't work, it's just a difference between for="email"  and id="eml"
+
+/*----https://css-tricks.com/almanac/selectors/v/valid/----*/
+#inputEml input:invalid {
+  background: hsla(0, 90%, 70%, 1);
+}
+
+#inputEml input:valid {
+  background: green;
+}
+
+https://www.tutorialspoint.com/How-to-add-an-audio-player-to-an-HTML-webpage
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all
+
+https://www.zapsplat.com/sound-effect-category/dance-and-pop/
+Remember, you must credit us/provide attribution when using our sounds/music in your work. An example would be:
+
+Sound from Zapsplat.com

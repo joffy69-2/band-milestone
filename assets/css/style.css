@@ -302,4 +302,10 @@ a:hover{
 
 .sound{
     text-align: center;
+    
+}
+
+.audio-list{
+    list-style-type: none;
+    padding: 0;
 }

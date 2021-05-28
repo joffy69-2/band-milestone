@@ -251,3 +251,6 @@ https://www.zapsplat.com/sound-effect-category/dance-and-pop/
 Remember, you must credit us/provide attribution when using our sounds/music in your work. An example would be:
 
 Sound from Zapsplat.com
+
+Just read this, so I'll junk the carousel idea.
+https://cxl.com/blog/dont-use-automatic-image-sliders-or-carousels/

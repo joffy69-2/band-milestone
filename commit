@@ -1,8 +1,3 @@
-replaced buttons with a tag 
-
-Specific markup required for dismiss-on-next-click
-For proper cross-browser and cross-platform behavior,
-you must use the <a> tag, not the <button> tag,
-and you also must include a tabindex attribute.
+working on md file
 
 

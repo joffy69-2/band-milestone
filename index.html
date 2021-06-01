@@ -9,11 +9,11 @@
     <meta name="keywords" content="rock rocknroll hire band" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <!--<link rel="stylesheet" href="assets/themes/bootstrap4-neon-glow.min.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>The Real Faux Furs</title>
+
 </head>
 
 <body>
@@ -29,7 +29,7 @@
                     <a class="dropdown-item menu-text" href="#frontpage">Home</a>
                     <a class="dropdown-item menu-text" href="#history">Meet the band</a>
                     <a class="dropdown-item menu-text" href="#photo">Gallery</a>
-                    <a class="dropdown-item menu-text" href="#gig">Gigs</a>           
+                    <a class="dropdown-item menu-text" href="#gig">Gigs</a>
                     <a class="dropdown-item menu-text" href="#shop">Merchandise</a>
                     <a class="dropdown-item menu-text" href="#audio">Music</a>
                     <a class="dropdown-item menu-text" href="contact.html" target="_blank">Contact Us</a>
@@ -165,19 +165,29 @@
                         <th scope="row">20/04/2021</th>
                         <td>20:00</td>
                         <td>The Bierkeller, SomewhereOrOther</td>
-                        <td><button type="button" class="btn btn-primary btn-lg">Buy Tickets</button></td>
+                        <td><button type="button" class="btn btn-primary btn-lg" data-bs-container="body"
+                                data-bs-toggle="popover" data-bs-placement="right"
+                                data-bs-content="Not functional at the moment">Buy Tickets</button></td>
+
                     </tr>
                     <tr>
                         <th scope="row">21/04/2021</th>
                         <td>20:00</td>
                         <td>The Astoria, AnyOtherTown</td>
-                        <td><button type="button" class="btn btn-primary btn-lg">Buy Tickets</button></td>
+                        <td><button type="button" class="btn btn-primary btn-lg" data-bs-container="body"
+                                data-bs-toggle="popover" data-bs-placement="right"
+                                data-bs-content="Not functional at the moment">Buy Tickets</button></td>
                     </tr>
                     <tr>
                         <th scope="row">25/04/2021</th>
                         <td>19:00</td>
                         <td>The Assembly Rooms, Anytown</td>
-                        <td><button type="button" class="btn btn-primary btn-lg" disabled> Sold Out </button></td>
+                        <td>
+                                <button type="button" class="btn btn-primary btn-lg" data-bs-container="body"
+                                data-bs-toggle="popover" data-bs-placement="right"
+                                data-bs-content="Sold Out" disabled> Sold Out </button>
+                            
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -269,16 +279,18 @@
         <div class="sound">
             <ul class="audio-list">
                 <h4 class="title text-lgt">Sick and Tired</h3>
-                    <h6 class="title text-lgt">Sounds from Zapsplat.com</h6>
-                <li><audio controls>
-                        <source src="../assets/audio/music_leonell_cassio_sick_and_tired_ft_lily_hain.mp3"></audio></li>
-                <h4 class="title text-lgt">Natalia</h3>
-                <li><audio controls>
-                        <source src="../assets/audio/music_tzichi_natalia_136bpm_e_min.mp3"></audio></li>
-                <h4 class="title text-lgt">Sheesh</h3>
-                <li><audio controls>
-                        <source src="../assets/audio/music_tzichi_sheesh_145bpm_ds_min.mp3"></audio></li>
+
+                    <li><audio controls>
+                            <source src="../assets/audio/music_leonell_cassio_sick_and_tired_ft_lily_hain.mp3"></audio>
+                    </li>
+                    <h4 class="title text-lgt">Natalia</h3>
+                        <li><audio controls>
+                                <source src="../assets/audio/music_tzichi_natalia_136bpm_e_min.mp3"></audio></li>
+                        <h4 class="title text-lgt">Sheesh</h3>
+                            <li><audio controls>
+                                    <source src="../assets/audio/music_tzichi_sheesh_145bpm_ds_min.mp3"></audio></li>
             </ul>
+            <h6 class="title text-lgt">Sounds from Zapsplat.com</h6>
         </div>
     </section>
     <footer>
@@ -308,6 +320,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+    <!-- from https://getbootstrap.com/docs/5.0/components/popovers/-->
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
 
 </body>
 

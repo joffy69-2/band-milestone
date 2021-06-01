@@ -188,6 +188,7 @@ Credits
     - https://stackoverflow.com/questions/28334845/changing-html-from-css-media-query
     - https://www.w3docs.com/snippets/css/how-to-place-a-div-in-the-middle-of-the-screen-when-it-is-smaller-than-the-page.html
     - https://css-tricks.com/almanac/selectors/v/valid/
+    - https://www.w3schools.com/csS/css3_shadows.asp
     
     - dashlane work around
         https://stackoverflow.com/questions/59939931/stop-dashlane-auto-fill-on-specific-input-fields  

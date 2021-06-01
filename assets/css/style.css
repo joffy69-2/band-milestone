@@ -24,6 +24,8 @@ body{
     
     font-family: 'Exo', 'Roboto', sans-serif;
     color: #C1436D;
+    text-shadow: 4px 4px 4px black;
+    /* https://www.w3schools.com/csS/css3_shadows.asp */
     
 }
 
@@ -317,4 +319,8 @@ a:hover{
 
 .text-mtd{
     color: #e0a0b6;
+}
+
+button:hover{
+    
 }

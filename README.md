@@ -37,14 +37,16 @@ ticket sales and merchanising sales. They also want to increase the number of gi
 
 > As a user type, I want to perform an action, so that I can achieve a goal.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
+These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 1. Existing fan
     - As an existing fan, I want to find gig dates so that I can book tickets. I want to browse a shop so that I can purchase merchandise.
 2. Potential fan
     - As a potential fan, I want to read about the band and browse photos, so that I can decide whether The Real Faux Furs are for me. I want to find gig dates, so that I can book tickets.
 3. Potential hirer 
-    - As a potential hirer, I want to read about the band/browse photos, so that I can decide whether the band is suitable for my event ie wedding/club night/festival/childrens party/school dance etc. I need a contact form to allow initial contact to be made with the band.
+    - As a potential hirer, I want to read about the band/browse photos, so that I can decide whether the band is suitable for my event ie wedding/club night/festival/childrens party/school dance etc. 
+    I need a contact form to allow initial contact to be made with the band.
 
 ---
 
@@ -109,6 +111,21 @@ Maybe use carousels on mobile for gallery/history/gigs/shop
 Maybe they could be taking bookings
 
 Existing Features
+
+Five features/sections and a landing page/image
+contact form
+
+Feature "Meet the band" - showcase the band members to give a feel for the Real Faux Furs. Draw the viewer down the page.
+
+Feature "Gallery" - more images of the band in action.
+
+Feature "Gigs" Where, When, Buy, Buy, Buy
+
+Feature "Merchandise" viewers can browse a shop - probably just a drop in one in reality
+
+Feature "Audio" users can listen and download sample music
+
+Feature "Contact" a contact form to allow users to contact the band 
 >Feature 1 - allows users X to achieve Y, by having them fill out Z
 
 > For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
@@ -116,12 +133,16 @@ Existing Features
 > In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 Features Left to Implement
-> Another feature idea
+> If video became available one could change audio to media
 
 ---
 
 Technologies Used
 > In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+HTML
+Css
+JavaScript
+Bootstrap 5
 
 ---
 
@@ -258,3 +279,5 @@ https://cxl.com/blog/dont-use-automatic-image-sliders-or-carousels/
 
 
 The buttons are not functional at the moment - an info popover has been added
+
+NB NO MEDIA QUERIES ON CONTACT PAGE YET

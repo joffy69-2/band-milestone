@@ -281,3 +281,7 @@ https://cxl.com/blog/dont-use-automatic-image-sliders-or-carousels/
 The buttons are not functional at the moment - an info popover has been added
 
 NB NO MEDIA QUERIES ON CONTACT PAGE YET
+
+color of the dropdown menu is the same as the color of the merchandise background
+
+cant get aria controls working on nav dropdown menu

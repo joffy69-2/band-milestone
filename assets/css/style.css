@@ -44,7 +44,7 @@ body{
 
 .menu-text{
     font-family: 'Exo', 'Roboto', sans-serif;
-    color: #A350A3;
+    color: rgb(165, 40, 165);
     text-decoration: none;
 }
 
@@ -197,17 +197,16 @@ a:hover{
 
 /* ------ from www.w3docs.com ----*/
 .mid-pos{
-     top: 50%;
-        left: 50%;
-        width: 30em;
-        height: auto;
-        transform: translate(-50%, -50%);
-        
-        background-color: transparent;
-        position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    height: auto;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    position: fixed;
 }
 
-.cen-con {
+.cen-con{
   position: absolute;
   top: 15%;
   width: 100%;

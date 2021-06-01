@@ -255,3 +255,6 @@ Sound from Zapsplat.com
 
 Just read this, so I'll junk the carousel idea.
 https://cxl.com/blog/dont-use-automatic-image-sliders-or-carousels/
+
+
+The buttons are not functional at the moment - an info popover has been added

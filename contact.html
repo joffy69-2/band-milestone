@@ -28,7 +28,7 @@
                     <a class="dropdown-item menu-text" href="index.html#photo">Gallery</a>
                     <a class="dropdown-item menu-text" href="index.html#gig">Gigs</a>
                     <a class="dropdown-item menu-text" href="index.html#shop">Merchandise</a>
-                     <a class="dropdown-item menu-text" href="index.html#audio">Music</a>
+                    <a class="dropdown-item menu-text" href="index.html#audio">Music</a>
                     <a class="dropdown-item menu-text" href="contact.html" target="_blank">Contact Us</a>
 
                 </div>
@@ -47,14 +47,14 @@
                     <div class="row mb-3">
                         <label for="inputName" class="col-sm-3 col-form-label text-light">Your Name</label>
                         <div class="col-sm-9">
-                            
+
                             <input type="text" class="form-control" id="inputName">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label for="inputEmail" class="col-sm-3 col-form-label text-light">Your Email Address</label>
                         <div class="col-sm-9">
-                            
+
                             <input type="text" class="form-control" id="inputEmail">
                         </div>
                     </div>
@@ -89,9 +89,8 @@
                         </div>
                     </div>
                     <div class="container">
-                        <button type="button" class="btn btn-primary" data-bs-container="body"
-                                data-bs-toggle="popover" data-bs-placement="right"
-                                data-bs-content="Not functional at the moment">Send message</button>
+                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-bs-toggle="popover"
+                            data-bs-trigger="focus" data-bs-content="Not working">Send Message</a>
                     </div>
                 </form>
             </div>
@@ -129,7 +128,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
-     <!-- from https://getbootstrap.com/docs/5.0/components/popovers/-->
+    <!-- from https://getbootstrap.com/docs/5.0/components/popovers/-->
     <script>
         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
         var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {

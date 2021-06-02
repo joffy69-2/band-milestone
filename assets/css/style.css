@@ -10,15 +10,15 @@ body{
     background-color: #0c0d16;
 }
 
-#bandpic{
-
-    background-image: url(../pictures/band7.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: calc(100vh - 70px);
-    /* from https://blog.ekohordan.com/posts/full-viewport-height-css/ */
+img{
+    width: 100%;
 }
+
+a:hover{
+    text-decoration: none;
+}
+
+/* -------------------headings--------------------------------------------*/
 
 .title{
     
@@ -26,21 +26,63 @@ body{
     color: #C1436D;
     text-shadow: 4px 4px 4px black;
     /* https://www.w3schools.com/csS/css3_shadows.asp */
-    
 }
 
 .font-size{
     font-size: 3em;
 }
 
-.center {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  
-  /* from https://www.w3schools.com/Css/css_positioning.asp */
+div > h2{
+    padding: 20px 0 15px 0;
+    text-align: center;
 }
+
+div > h4{
+    padding: 20px 0 15px 0;
+    text-align: center;
+    margin: 0 15px 0 15px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.text-lgt{
+    color: #e0a0b6;
+}
+
+.text-drk{
+    color: #A350A3;
+}
+
+/* -------------------cards-----------------------------------------------*/
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card{
+    background-color: #0c0d16;
+}
+
+/* -------------------buttons-----------------------------------------------*/
+
+.btn-primary{
+    background-color: #C1436D;
+    border-color: #C1436D;
+}
+
+.btn-primary:hover{
+    background-color: #da94e4;
+    border-color: #da94e4;
+}
+
+/* -------------------header----------------------------------------------*/
 
 .menu-text{
     font-family: 'Exo', 'Roboto', sans-serif;
@@ -59,79 +101,95 @@ header > div {
     /* from https://www.sitepoint.com/community/t/css-drop-down-menu-is-going-off-screen-when-dropping-down/3300/2 */
 }
 
-div > h2{
-    padding: 20px 0 15px 0;
-    text-align: center;
+.float-right.fixed-top{
+    left: auto;
+    right:8px;
 }
 
-div > h4{
-    padding: 20px 0 15px 0;
-    text-align: center;
-    margin: 0 15px 0 15px;
+/* -------------------section frontpage-----------------------------------*/
+
+#bandpic{
+    background-image: url(../pictures/band7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* from https://blog.ekohordan.com/posts/full-viewport-height-css/ */
+    height: calc(100vh - 70px);   
 }
+
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  /* from https://www.w3schools.com/Css/css_positioning.asp */
+}
+
+/* -------------------section history-----------------------------------*/
+
+.text-mtd{
+    color: #e0a0b6;
+}
+
+/* -------------------section shop--------------------------------------*/
 
 .push-d{
     margin-top: 30px;
 }
 
-.card-title{
-    text-align: center;
+#items{
+    display: flex;
+    justify-content: center;
 }
 
-.card-img-top {
-    max-width: 100%;
-    height: auto;
-}
-
-.card-text{
-    text-align: center;
-}
-
-.card{
-    background-color: #0c0d16;
-
-}
-
-/* ---------------------section gallery -------------------------*/
-
-#gallery{
-   
-  clear: both;
-  line-height: 0;
-  column-count: 4;
-  column-gap: 0;
-  /* from love-running project/code institute */
- 
-}
-
-#gallery img{
-  width: 100%;
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-  /* from love-running project/code institute */
-
-
-.band-img{
-    
-    width: 60%;
-}
-
-.bkgr-color-d{
-    background-color: #C1436D;
-    
-}
-
-.text-lgt{
+#shop .card{
+    background-color: #A350A3;
     color: #e0a0b6;
 }
 
-.float-right.fixed-top{
-    left: auto;
-    right:8px;
+.icon-lrg{
+    padding-left: 30px;
 }
+
+.icon-sml{
+    padding-left: 15px;   
+}
+
+/* ---------------------section photo-----------------------------------*/
+
+#gallery{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+  /* from love-running project/code institute */ 
+}
+
+#gallery img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* from love-running project/code institute */
+}
+  
+.bkgr-color-d{
+    background-color: #C1436D;   
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.gallery-btm{
+    padding-bottom: 72px;
+}
+
+/* -------------------section gig---------------------------------------*/
 
 thead{
     border-style: hidden;
@@ -143,15 +201,23 @@ thead{
     width: auto;
 }
 
-.btn-primary{
-    background-color: #C1436D;
-    border-color: #C1436D;
+#gig table {
+    margin-bottom: 31px;
 }
 
-.btn-primary:hover{
-    background-color: #da94e4;
-    border-color: #da94e4;
+/* -------------------section audio-------------------------------------*/
+
+.sound{
+    text-align: center;
+    
 }
+
+.audio-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+/* -------------------footer--------------------------------------------*/
 
 #social{
    margin-right: 30px;
@@ -165,35 +231,19 @@ thead{
     text-align: center;
 }
 
-#items{
-    display: flex;
-    justify-content: center;
-}
-
-#shop .card{
-    background-color: #A350A3;
-    color: #e0a0b6;
-}
-
-#gig table {
-    margin-bottom: 31px;
-}
-
-.bottom {
-    margin-top: auto;
-}
-
 footer > div {
     margin-top: 20px;
-}
-
-a:hover{
-    text-decoration: none;
 }
 
 .soc-med{
     padding: 10px;
 }
+
+.social-color{
+    color: #A350A3;
+}
+
+/* -------------------contact--------------------------------------------*/
 
 /* ------ from www.w3docs.com ----*/
 .mid-pos{
@@ -207,40 +257,23 @@ a:hover{
 }
 
 .cen-con{
-  position: absolute;
-  top: 15%;
-  width: 100%;
-  text-align: center;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align: center;
 }
 
 .cen-con-bot {
-  position: fixed;
-  width: 100%;
-  text-align: center;
-  bottom: 10%;
-  font-size: .5em;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 10%;
+    font-size: .5em;
 }
 
 .container{
     justify-content: center;
     display: flex;
-}
-
-.text-drk{
-    color: #A350A3;
-}
-
-.social-color{
-    color: #A350A3;
-}
-
-.icon-lrg{
-    padding-left: 30px;
-}
-
-.icon-sml{
-    padding-left: 15px;
-    
 }
 
 /* ------------------media queries ----------------------*/
@@ -259,7 +292,6 @@ a:hover{
         word-wrap: normal;
     }
 }
-
 
 @media screen and (max-width: 768px) {
     #gallery {
@@ -295,31 +327,3 @@ a:hover{
     }
 }
 
-.img-center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
-
-.gallery-btm{
-    padding-bottom: 72px;
-}
-
-.sound{
-    text-align: center;
-    
-}
-
-.audio-list{
-    list-style-type: none;
-    padding: 0;
-}
-
-.text-mtd{
-    color: #e0a0b6;
-}
-
-img{
-    width: 100%;
-}

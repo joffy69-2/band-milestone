@@ -21,10 +21,16 @@ a:hover{
 /* -------------------headings--------------------------------------------*/
 
 .title{
-    
     font-family: 'Exo', 'Roboto', sans-serif;
-    color: #C1436D;
-    text-shadow: 4px 4px 4px black;
+}
+
+.shadow-drk{
+     text-shadow: 4px 4px 4px black;
+    /* https://www.w3schools.com/csS/css3_shadows.asp */
+}
+
+.shadow-lgt{
+     text-shadow: 1px 1px 1px rgb(238, 184, 222);
     /* https://www.w3schools.com/csS/css3_shadows.asp */
 }
 
@@ -127,9 +133,7 @@ header > div {
 
 /* -------------------section history-----------------------------------*/
 
-.text-mtd{
-    color: #e0a0b6;
-}
+
 
 /* -------------------section shop--------------------------------------*/
 

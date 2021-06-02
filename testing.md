@@ -4,4 +4,5 @@ all links work as expected
 
 resizing works as expected
 
-the social media links have moved up! 
+the social media links have moved up!  id social needed margin:30px not margin-right: 30px
+Then the home link moved up! float-start not float-left

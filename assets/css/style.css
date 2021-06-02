@@ -230,7 +230,7 @@ thead{
 }
 
 #contact{
-    margin-left: 30px;
+    margin: 30px;
     padding: 6px 0 20px 0;
     text-align: center;
 }
@@ -323,7 +323,23 @@ footer > div {
     .push-d{
         margin-top: 15px;
     }
+
+    .mid-pos{
+        top: 60%;
+        left: 50%;
+        width: 75%;
+        height: auto;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        position: fixed;
+    }
 }
+/*
+@media only screen and (max-width: 768px) and (orientation: landscape){
+    .mid-pos{
+        transform: translate(-50%, -10%);
+    }
+}*/
 
 @media screen and (min-width: 768px){
     .icon-sml{

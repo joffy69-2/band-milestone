@@ -41,7 +41,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 1. Existing fan
-    - As an existing fan, I want to find gig dates so that I can book tickets. I want to browse a shop so that I can purchase merchandise.
+    - As an existing fan, I want to find gig dates so that I can book tickets. I want to browse a shop so that I can purchase merchandise. I want to know more about the band members.
 2. Potential fan
     - As a potential fan, I want to read about the band and browse photos, so that I can decide whether The Real Faux Furs are for me. I want to find gig dates, so that I can book tickets.
 3. Potential hirer 
@@ -114,6 +114,7 @@ Existing Features
 
 Five features/sections and a landing page/image
 contact form
+Landing page - a simple background picture and the bands name. 
 
 Feature "Meet the band" - showcase the band members to give a feel for the Real Faux Furs. Draw the viewer down the page.
 
@@ -121,11 +122,12 @@ Feature "Gallery" - more images of the band in action.
 
 Feature "Gigs" Where, When, Buy, Buy, Buy
 
-Feature "Merchandise" viewers can browse a shop - probably just a drop in one in reality
+Feature "Merchandise" viewers can browse a shop - probably just a drop-in one in reality
 
 Feature "Audio" users can listen and download sample music
 
-Feature "Contact" a contact form to allow users to contact the band 
+Feature "Contact" a contact form to allow users to contact the band
+
 >Feature 1 - allows users X to achieve Y, by having them fill out Z
 
 > For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
@@ -139,10 +141,15 @@ Features Left to Implement
 
 Technologies Used
 > In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-HTML
-Css
-JavaScript
-Bootstrap 5
+HTML, https://www.w3.org/html/
+Css, https://www.w3.org/Style/CSS/Overview.en.html
+JavaScript, http://www.ecmascript.org/
+Bootstrap 5, https://getbootstrap.com/docs/5.0/getting-started/introduction/
+Balsamiq wireframes, https://balsamiq.com/
+Microsoft Excel, https://www.microsoft.com
+Vim, https://www.vim.org/
+GitHub,
+Gitpod, 
 
 ---
 
@@ -282,6 +289,7 @@ The buttons are not functional at the moment - an info popover has been added
 
 NB NO MEDIA QUERIES ON CONTACT PAGE YET
 
-color of the dropdown menu is the same as the color of the merchandise background
 
+bugs
 cant get aria controls working on nav dropdown menu
+color of the dropdown menu is the same as the color of the merchandise background

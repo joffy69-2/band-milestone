@@ -280,6 +280,10 @@ footer > div {
     display: flex;
 }
 
+.font-size-privacy{
+    font-size: 3em;
+}
+
 /* ------------------media queries ----------------------*/
 
 @media screen and (max-width: 992px) {
@@ -332,6 +336,10 @@ footer > div {
         transform: translate(-50%, -50%);
         background-color: transparent;
         position: fixed;
+    }
+
+    .font-size-privacy{
+        font-size: x-small;
     }
 }
 /*

@@ -257,7 +257,7 @@ footer > div {
     height: auto;
     transform: translate(-50%, -50%);
     background-color: transparent;
-    position: relative;
+    position: absolute;
 }
 
 .cen-con{
@@ -268,7 +268,7 @@ footer > div {
 }
 
 .cen-con-bot {
-    position: relative;
+    position: absolute;
     width: 100%;
     text-align: center;
     bottom: 10%;

@@ -257,7 +257,7 @@ footer > div {
     height: auto;
     transform: translate(-50%, -50%);
     background-color: transparent;
-    position: fixed;
+    position: relative;
 }
 
 .cen-con{
@@ -268,7 +268,7 @@ footer > div {
 }
 
 .cen-con-bot {
-    position: fixed;
+    position: relative;
     width: 100%;
     text-align: center;
     bottom: 10%;
@@ -328,7 +328,7 @@ footer > div {
         margin-top: 15px;
     }
 
-    .mid-pos{
+    /*.mid-pos{
         top: 60%;
         left: 50%;
         width: 75%;
@@ -340,17 +340,17 @@ footer > div {
 
     .font-size-privacy{
         font-size: x-small;
-    }
+    }*/
 }
 
-@media only screen and (max-width: 768px) and (orientation: landscape){
+/*@media only screen and (max-width: 768px) and (orientation: landscape){
     /*.mid-pos{
         transform: translate(-50%, -10%);
-    }*/
+    }
     #bandpic{
         display: none;
     }
-}
+}*/
 
 @media screen and (min-width: 768px){
     .icon-sml{

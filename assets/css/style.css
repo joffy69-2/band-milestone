@@ -342,15 +342,22 @@ footer > div {
         font-size: x-small;
     }
 }
-/*
+
 @media only screen and (max-width: 768px) and (orientation: landscape){
-    .mid-pos{
+    /*.mid-pos{
         transform: translate(-50%, -10%);
+    }*/
+    #bandpic{
+        display: none;
     }
-}*/
+}
 
 @media screen and (min-width: 768px){
     .icon-sml{
+        display: none;
+    }
+
+    #warning{
         display: none;
     }
 }

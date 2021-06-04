@@ -328,36 +328,13 @@ footer > div {
         margin-top: 15px;
     }
 
-    /*.mid-pos{
-        top: 60%;
-        left: 50%;
-        width: 75%;
-        height: auto;
-        transform: translate(-50%, -50%);
-        background-color: transparent;
-        position: fixed;
-    }
-
     .font-size-privacy{
         font-size: x-small;
-    }*/
+    }
 }
-
-/*@media only screen and (max-width: 768px) and (orientation: landscape){
-    /*.mid-pos{
-        transform: translate(-50%, -10%);
-    }
-    #bandpic{
-        display: none;
-    }
-}*/
 
 @media screen and (min-width: 768px){
     .icon-sml{
-        display: none;
-    }
-
-    #warning{
         display: none;
     }
 }

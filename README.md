@@ -44,7 +44,7 @@ These files should themselves either be included as a pdf file in the project it
     - As an existing fan, I want to find gig dates so that I can book tickets. I want to browse a shop so that I can purchase merchandise. I want to know more about the band members.
 2. Potential fan
     - As a potential fan, I want to read about the band and browse photos, so that I can decide whether The Real Faux Furs are for me. I want to find gig dates, so that I can book tickets.
-    ![Image of gallery](https://github.com/joffy69/band-milestone/blob/master/assets/pictures/screenshots/ipad-pro-gallery.png?raw=true "gallery gigs merchandise audio" )
+    ![Image of gallery](https://github.com/joffy69/band-milestone/blob/master/assets/pictures/screenshots/ipad-pro-gallery.jpg?raw=true "gallery gigs merchandise audio" )
     ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 3. Potential hirer
     - As a potential hirer, I want to read about the band/browse photos, so that I can decide whether the band is suitable for my event ie wedding/club night/festival/childrens party/school dance etc. 

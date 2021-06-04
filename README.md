@@ -156,8 +156,8 @@ Deployment
 ---
 
 Credits
+=
 
----
 1. Content
 - All the text on the site is my own work. Any resemblance to people (real or fictional, alive or dead) is accidental.
 
@@ -200,3 +200,6 @@ Credits
     
     - dashlane work around
         - https://stackoverflow.com/questions/59939931/stop-dashlane-auto-fill-on-specific-input-fields  
+
+
+        

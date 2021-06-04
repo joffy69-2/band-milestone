@@ -55,11 +55,6 @@ Wireframes
     - potential promoters
         - appeal for collaboration/what the band can do
 
-
- - You've got the focus: what's worth doing?
- - The definition: what are we creating?
- - And value: what value does it provide?
-
 ### 2. Scope plane - which features to include based on strategy
     - History of band
     - video/audio

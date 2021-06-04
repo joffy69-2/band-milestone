@@ -46,6 +46,6 @@ check this out! https://hackerthemes.com/bootstrap-themes/demo/neon-glow/
  Wireframes
  ---
 
-     ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+[Faux furs wireframe](https://github.com/joffy69/band-milestone/blob/master/design/wireframes/rfauxfurs.pdf)
 
 

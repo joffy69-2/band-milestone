@@ -10,6 +10,10 @@
 - cons
     - the menu is very big
     - not obviously alabama3 except for title
+
+- wireframe
+    - [Alabama3 wireframe](https://github.com/joffy69/band-milestone/blob/master/research/alabama3-1.png)
+
 ---
 2. Iron Maiden https://www.ironmaiden.com/
 - genre heavy metal
@@ -20,6 +24,10 @@
     - they've also got the dark/light/dark/light/dark thing going
 - cons
     - very complicated
+
+- wireframe
+    - [iron maiden wireframe](https://github.com/joffy69/band-milestone/blob/master/research/iron-maiden.png)
+
 ---
 3. Royal Philhamonic Orchestra https://www.rpo.co.uk/
 - genre classical
@@ -32,8 +40,11 @@
     - very trad design
     - not much visual interest (maybe intentional)
     - maybe too much on one page
+
+- wireframe
+    - [royal philharmonic wireframe](https://github.com/joffy69/band-milestone/blob/master/research/rpo.png)
 ---
 
-I think I'll be going for restrained and elegant - Iron maiden are definitely neither
-## copyright information
+I think I'll be going for restrained and elegant - Iron maiden are definitely neither.
+
 

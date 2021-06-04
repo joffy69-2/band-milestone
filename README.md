@@ -148,7 +148,6 @@ Features Left to Implement
 
 Technologies Used
 =
-> In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 - HTML, https://www.w3.org/html/
     - for creation of website.
 - Css, https://www.w3.org/Style/CSS/Overview.en.html
@@ -163,8 +162,12 @@ Technologies Used
     - used for testing.
 - Vim, https://www.vim.org/
     - for writing commit messages.
-- GitHub, 
-- Gitpod, 
+- GitHub, https://github.com/
+    - for version control
+- Gitpod, https://www.gitpod.io/
+    - development environment
+- GitHub Pages, https://pages.github.com/
+    - deployment.
 
 ---
 

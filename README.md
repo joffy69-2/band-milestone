@@ -44,7 +44,7 @@ These files should themselves either be included as a pdf file in the project it
     - As an existing fan, I want to find gig dates so that I can book tickets. I want to browse a shop so that I can purchase merchandise. I want to know more about the band members.
 2. Potential fan
     - As a potential fan, I want to read about the band and browse photos, so that I can decide whether The Real Faux Furs are for me. I want to find gig dates, so that I can book tickets.
-    ![Image of gallery](https://github.com/joffy69/band-milestone/blob/master/assets/pictures/screenshots/ipad-pro-gallery.png?raw=true)
+    ![Image of gallery](https://github.com/joffy69/band-milestone/blob/master/assets/pictures/screenshots/ipad-pro-gallery.png?raw=true "gallery gigs merchandise audio" )
     ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 3. Potential hirer 
     - As a potential hirer, I want to read about the band/browse photos, so that I can decide whether the band is suitable for my event ie wedding/club night/festival/childrens party/school dance etc. 
@@ -109,9 +109,6 @@ These files should themselves either be included as a pdf file in the project it
 Features
 > In this section, you should go over the different parts of your project, and describe each in a sentence or so.#
 
-Maybe use carousels on mobile for gallery/history/gigs/shop
-Maybe they could be taking bookings
-
 Existing Features
 ==
 Five features/sections and a landing page/image
@@ -141,6 +138,7 @@ Features Left to Implement
 =
 - If video became available one could change audio to media
 - Dropin Shop for merchandise
+- Contact form to post to db/email
 
 ---
 
@@ -218,6 +216,7 @@ Credits
     
 3. Acknowledgements
     - I received inspiration for this project from https://designshack.net/articles/trends/best-website-color-schemes/
+    - https://stocksnap.io/search/rock+band
 
 4. Code 
     - https://blog.ekohordan.com/posts/full-viewport-height-css/
@@ -227,36 +226,37 @@ Credits
     - https://www.w3docs.com/snippets/css/how-to-place-a-div-in-the-middle-of-the-screen-when-it-is-smaller-than-the-page.html
     - https://css-tricks.com/almanac/selectors/v/valid/
     - https://www.w3schools.com/csS/css3_shadows.asp
+    - https://www.tutorialspoint.com/How-to-add-an-audio-player-to-an-HTML-webpage
+    - https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all
+
     
     - dashlane work around
         - https://stackoverflow.com/questions/59939931/stop-dashlane-auto-fill-on-specific-input-fields  
-    
-     
+
+
+bugs
+===
+1. cant get aria controls working on nav dropdown menu
+2. color of the dropdown menu is the same as the color of the merchandise background
+3. the form on the contact page doesn't display well on x small devices (like iphonex)
+4. The buttons are not functional at the moment - an info popover has been added
+
+NB 
+===
+Please also see:
+- research.md 
+- design.md 
+- testing.md
+
 Things to remember:
     - three click rule
     
 colour scheme possibles
-26. Igor
-#000000 #FEFEFE #FDEE30
 
-32. Sheerlink by RTX
-#4A2C40 #E9BD43 #7D3780
 
-34. Loic Sciampagna Portfolio
-#141824 #FFB600 #0049FF
 
-37. Tappezzeria Novecento
-#191919 #FAB162
 
-43. Blast Galaxy
-#0F0C24 #A350A3 #C1436D
 
----
----
-
-Bootstrap things to include: scrollspy for menu dropdown
-
-menu dropdown on wrong side???
 
 #A350A3 for clickable items
 #C1436D for dark background
@@ -265,9 +265,9 @@ menu dropdown on wrong side???
 an off white for light bkground
 
 
-check this out! https://hackerthemes.com/bootstrap-themes/demo/neon-glow/
 
-for free photos https://stocksnap.io/search/rock+band
+
+
 
 action: on scroll
 
@@ -283,13 +283,10 @@ work around rename to, say, emladdress - nb this doesn't work, it's just a diffe
   background: green;
 }
 
-https://www.tutorialspoint.com/How-to-add-an-audio-player-to-an-HTML-webpage
-https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all
 
 
 
-Just read this, so I'll junk the carousel idea.
-https://cxl.com/blog/dont-use-automatic-image-sliders-or-carousels/
+
 
 
 
@@ -297,9 +294,3 @@ https://cxl.com/blog/dont-use-automatic-image-sliders-or-carousels/
 NB NO MEDIA QUERIES ON CONTACT PAGE YET
 
 
-bugs
-===
-1. cant get aria controls working on nav dropdown menu
-2. color of the dropdown menu is the same as the color of the merchandise background
-3. the form on the contact page doesn't display well on x small devices (like iphonex)
-4. The buttons are not functional at the moment - an info popover has been added

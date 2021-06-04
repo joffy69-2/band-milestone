@@ -150,13 +150,20 @@ Technologies Used
 =
 > In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 - HTML, https://www.w3.org/html/
+    - for creation of website.
 - Css, https://www.w3.org/Style/CSS/Overview.en.html
+    - for styling of website.
 - JavaScript, http://www.ecmascript.org/
+    - for popup behaviour in bootstrap 5.
 - Bootstrap 5, https://getbootstrap.com/docs/5.0/getting-started/introduction/
+    - framework for design
 - Balsamiq wireframes, https://balsamiq.com/
+    - wireframe for mockups
 - Microsoft Excel, https://www.microsoft.com
+    - used for testing.
 - Vim, https://www.vim.org/
-- GitHub,
+    - for writing commit messages.
+- GitHub, 
 - Gitpod, 
 
 ---

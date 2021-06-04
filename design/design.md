@@ -36,6 +36,11 @@ all from https://designshack.net/articles/trends/best-website-color-schemes/
 
 check this out! https://hackerthemes.com/bootstrap-themes/demo/neon-glow/
 
+- #A350A3 for clickable items
+- #C1436D for dark background
+- #C1436D for dark text
+- #e0a0b6 for light text
+- an off white for light bkground
  ---
 
  Wireframes

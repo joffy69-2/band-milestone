@@ -1,24 +1,3 @@
-# Project Example Idea 1
-### Build a website for a band (real or fictional)
-
- ## External user’s goal:
-> ### The site's users are fans and potential fans who wish to learn more about the band's history and the band members, and possibly book them for shows.
-
-## Site owner's goal:
-> ### The band are interested in selling more of their music/merchandise and getting more gigs.
-
-### Potential features to include:
-  1. Showcase photos/gallery
-  2. audio
-  3. video clips
-        - from the band's catalog.
-
-  4. Publicise the band's upcoming shows and/or availability to perform at events such as weddings and corporate parties.
-
-5. Provide links to external resources, such as the band's social media profiles (can point anywhere at all).
-
----
-
 # The Real Faux Furs band website
 
 The fictional band (I hope, I have checked and can't find one) The Real Faux Furs (sytle: unknown) want a bespoke website
@@ -63,7 +42,7 @@ Wireframes
 
 ---
 
-1. Strategy plane - what are you aiming for and for who
+### 1. Strategy plane - what are you aiming for and for who
     - fans/potential fans
         - band member bios
         - band history
@@ -82,7 +61,7 @@ Wireframes
  - The definition: what are we creating?
  - And value: what value does it provide?
 
-2. Scope plane - which features to include based on strategy
+### 2. Scope plane - which features to include based on strategy
     - History of band
     - video/audio
     - gig pictures
@@ -99,15 +78,15 @@ Wireframes
 |gig list     |1               |2                |2          |
 |for hire     |2               |2                |4          |
 
-3. Structure plane - how is info structured and logically grouped
+### 3. Structure plane - how is info structured and logically grouped
     - history/gallery/video/audio are media 
     - shop is merchandise
     - giglist/forhire are info
 
-4. Skeleton plane - info presentation
+### 4. Skeleton plane - info presentation
     - as in a3 and im one long page with page links, then links to gig page and shop
 
-5. Surface plane - finished product look like- colors, typography design element
+### 5. Surface plane - finished product look like- colors, typography design element
     - looking for a dark colour (not black) and a light colour (not white)
     - other colours will depend on the stock photos I can find
     - typography check whats popular at the moment on google fonts
@@ -115,13 +94,12 @@ Wireframes
     - we want buttons to change colour on select/process
     
 ---
-Features
-> In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+# Features
 
-Existing Features
-==
-Five features/sections and a landing page/image
-contact form
+### Existing Features
+
+    Five features/sections and a landing page/image
+    contact form
 
 - Landing page - a simple background picture and the bands name. 
 
@@ -137,14 +115,8 @@ contact form
 
 - Feature "Contact" a contact form to allow users to contact the band
 
->Feature 1 - allows users X to achieve Y, by having them fill out Z
+### Features Left to Implement
 
-> For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-> In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-Features Left to Implement
-=
 - If video became available one could change audio to media
 - Dropin Shop for merchandise
 - Contact form to post to db/email
@@ -195,10 +167,11 @@ Testing
 
 Bugs
 ===
-1. cant get aria controls working on nav dropdown menu
-2. color of the dropdown menu is the same as the color of the merchandise background
-3. the form on the contact page doesn't display well on x small devices (like iphonex)
-4. The buttons are not functional at the moment - an info popover has been added
+1. Can't get aria controls working on nav dropdown menu.
+2. Color of the dropdown menu is the same as the color of the merchandise background.
+3. The form on the contact page doesn't display well on x small devices (like iphonex).
+4. The buttons are not functional at the moment - an info popover has been added.
+5. Dashlane bug. My password manager, Dashlane, injects custom css and html into elements it thinks are form elements. This might be a good idea, but I would like to switch it off for development.
 ---
 
 Deployment
@@ -258,54 +231,3 @@ Credits
     
     - dashlane work around
         - https://stackoverflow.com/questions/59939931/stop-dashlane-auto-fill-on-specific-input-fields  
-
-
-
-
-
-
-Things to remember:
-    - three click rule
-    
-colour scheme possibles
-
-
-
-
-
-
-#A350A3 for clickable items
-#C1436D for dark background
-#C1436D for dark text
-#e0a0b6 for light text
-an off white for light bkground
-
-
-
-
-
-
-action: on scroll
-
-My password manager (Dashlane) has been injecting css into the site, using id/name ie emailaddress firstName etc 
-work around rename to, say, emladdress - nb this doesn't work, it's just a difference between for="email"  and id="eml"
-
-/*----https://css-tricks.com/almanac/selectors/v/valid/----*/
-#inputEml input:invalid {
-  background: hsla(0, 90%, 70%, 1);
-}
-
-#inputEml input:valid {
-  background: green;
-}
-
-
-
-
-
-
-
-
-NB NO MEDIA QUERIES ON CONTACT PAGE YET
-
-

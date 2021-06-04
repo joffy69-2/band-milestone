@@ -113,22 +113,23 @@ Maybe use carousels on mobile for gallery/history/gigs/shop
 Maybe they could be taking bookings
 
 Existing Features
-
+==
 Five features/sections and a landing page/image
 contact form
-Landing page - a simple background picture and the bands name. 
 
-Feature "Meet the band" - showcase the band members to give a feel for the Real Faux Furs. Draw the viewer down the page.
+- Landing page - a simple background picture and the bands name. 
 
-Feature "Gallery" - more images of the band in action.
+- Feature "Meet the band" - showcase the band members to give a feel for the Real Faux Furs. Draw the viewer down the page.
 
-Feature "Gigs" Where, When, Buy, Buy, Buy
+- Feature "Gallery" - more images of the band in action.
 
-Feature "Merchandise" viewers can browse a shop - probably just a drop-in one in reality
+- Feature "Gigs" Where, When, Buy, Buy, Buy
 
-Feature "Audio" users can listen and download sample music
+- Feature "Merchandise" viewers can browse a shop - probably just a drop-in one in reality
 
-Feature "Contact" a contact form to allow users to contact the band
+- Feature "Audio" users can listen and download sample music
+
+- Feature "Contact" a contact form to allow users to contact the band
 
 >Feature 1 - allows users X to achieve Y, by having them fill out Z
 
@@ -137,21 +138,24 @@ Feature "Contact" a contact form to allow users to contact the band
 > In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 Features Left to Implement
-> If video became available one could change audio to media
+=
+- If video became available one could change audio to media
+- Dropin Shop for merchandise
 
 ---
 
 Technologies Used
+=
 > In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-HTML, https://www.w3.org/html/
-Css, https://www.w3.org/Style/CSS/Overview.en.html
-JavaScript, http://www.ecmascript.org/
-Bootstrap 5, https://getbootstrap.com/docs/5.0/getting-started/introduction/
-Balsamiq wireframes, https://balsamiq.com/
-Microsoft Excel, https://www.microsoft.com
-Vim, https://www.vim.org/
-GitHub,
-Gitpod, 
+- HTML, https://www.w3.org/html/
+- Css, https://www.w3.org/Style/CSS/Overview.en.html
+- JavaScript, http://www.ecmascript.org/
+- Bootstrap 5, https://getbootstrap.com/docs/5.0/getting-started/introduction/
+- Balsamiq wireframes, https://balsamiq.com/
+- Microsoft Excel, https://www.microsoft.com
+- Vim, https://www.vim.org/
+- GitHub,
+- Gitpod, 
 
 ---
 

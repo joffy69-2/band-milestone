@@ -44,7 +44,7 @@ These files should themselves either be included as a pdf file in the project it
     - As an existing fan, I want to find gig dates so that I can book tickets. I want to browse a shop so that I can purchase merchandise. I want to know more about the band members.
 2. Potential fan
     - As a potential fan, I want to read about the band and browse photos, so that I can decide whether The Real Faux Furs are for me. I want to find gig dates, so that I can book tickets.
-    ![Image of gallery](https://github.com/joffy69/band-milestone/blob/master/assets/pictures/ipad-pro-gallery.png?raw=true)
+    ![Image of gallery](https://github.com/joffy69/band-milestone/blob/master/assets/pictures/screenshots/ipad-pro-gallery.png?raw=true)
     ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 3. Potential hirer 
     - As a potential hirer, I want to read about the band/browse photos, so that I can decide whether the band is suitable for my event ie wedding/club night/festival/childrens party/school dance etc. 
@@ -189,27 +189,31 @@ Credits
 
 ---
 1.Content
-    - The text for section Y was copied from the Wikipedia article Z
+- All the text on the site is my own work. Any resemblance to people (real or fictional, alive or dead) is accidental.
 
 2. Media
-    - The photos used in this site were obtained from ...
-    https://thumbs.dreamstime.com/z/rock-band-jumping-4630443.jpg
-    https://i.pinimg.com/originals/3b/bd/e2/3bbde2a9d5fd6a3b3bdb6f9f45672473.jpg
-    https://i0.wp.com/www.healthfitnessrevolution.com/wp-content/uploads/2017/02/iStock-144220369.jpg?fit=1493%2C703
-    https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fyoung-musical-band-8968794.jpg&f=1&nofb=1
-    https://thumbs.dreamstime.com/b/rock-band-stage-14119612.jpg
-    https://cdn1.vectorstock.com/i/1000x1000/53/20/rock-band-vector-35320.jpg
-    http://images.dailyhive.com/20161125133559/shutterstock_416610790.jpg
-    https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fbb%2Faf%2Ffe%2Fbbaffe583e8a33567590ee84d417cbdb.jpg&f=1&nofb=1
-    https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.johnlund.com%2FImages%2F10003500346.JPG&f=1&nofb=1
-    https://www.johnlund.com/Images/10003500346.JPG
-    https://www.hairfinder.com/haircollections2/rock-star-hairstyle.jpg
-    https://images.esellerpro.com/2152/I/434/03/lrgEW-8112.jpg
-    http://clipartmag.com/images/rock-star-clipart-5.jpg
+- The photos used in this site were obtained from ...
+    - https://thumbs.dreamstime.com/z/rock-band-jumping-4630443.jpg
+    - https://i.pinimg.com/originals/3b/bd/e2/3bbde2a9d5fd6a3b3bdb6f9f45672473.jpg
+    - https://i0.wp.com/www.healthfitnessrevolution.com/wp-content/uploads/2017/02/iStock-144220369.jpg?fit=1493%2C703
+    - https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fyoung-musical-band-8968794.jpg&f=1&nofb=1
+    - https://thumbs.dreamstime.com/b/rock-band-stage-14119612.jpg
+    - https://cdn1.vectorstock.com/i/1000x1000/53/20/rock-band-vector-35320.jpg
+    - http://images.dailyhive.com/20161125133559/shutterstock_416610790.jpg
+    - https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fbb%2Faf%2Ffe%2Fbbaffe583e8a33567590ee84d417cbdb.jpg&f=1&nofb=1
+    - https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.johnlund.com%2FImages%2F10003500346.JPG&f=1&nofb=1
+    - https://www.johnlund.com/Images/10003500346.JPG
+    - https://www.hairfinder.com/haircollections2/rock-star-hairstyle.jpg
+    - https://images.esellerpro.com/2152/I/434/03/lrgEW-8112.jpg
+    - http://clipartmag.com/images/rock-star-clipart-5.jpg
 
-    https://designshack.net/articles/trends/best-website-color-schemes/
+- The audio files used in this site were obtained from ...
+    - https://www.zapsplat.com/sound-effect-category/dance-and-pop/
+    - Sound from Zapsplat.com
+
+    
 3. Acknowledgements
-    - I received inspiration for this project from X
+    - I received inspiration for this project from https://designshack.net/articles/trends/best-website-color-schemes/
 
 4. Code 
     - https://blog.ekohordan.com/posts/full-viewport-height-css/
@@ -221,7 +225,7 @@ Credits
     - https://www.w3schools.com/csS/css3_shadows.asp
     
     - dashlane work around
-        https://stackoverflow.com/questions/59939931/stop-dashlane-auto-fill-on-specific-input-fields  
+        - https://stackoverflow.com/questions/59939931/stop-dashlane-auto-fill-on-specific-input-fields  
     
      
 Things to remember:
@@ -278,20 +282,20 @@ work around rename to, say, emladdress - nb this doesn't work, it's just a diffe
 https://www.tutorialspoint.com/How-to-add-an-audio-player-to-an-HTML-webpage
 https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all
 
-https://www.zapsplat.com/sound-effect-category/dance-and-pop/
-Remember, you must credit us/provide attribution when using our sounds/music in your work. An example would be:
 
-Sound from Zapsplat.com
 
 Just read this, so I'll junk the carousel idea.
 https://cxl.com/blog/dont-use-automatic-image-sliders-or-carousels/
 
 
-The buttons are not functional at the moment - an info popover has been added
+
 
 NB NO MEDIA QUERIES ON CONTACT PAGE YET
 
 
 bugs
-cant get aria controls working on nav dropdown menu
-color of the dropdown menu is the same as the color of the merchandise background
+===
+1. cant get aria controls working on nav dropdown menu
+2. color of the dropdown menu is the same as the color of the merchandise background
+3. the form on the contact page doesn't display well on x small devices (like iphonex)
+4. The buttons are not functional at the moment - an info popover has been added

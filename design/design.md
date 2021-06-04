@@ -30,6 +30,7 @@ Colours/Themes
 
 - 43. Blast Galaxy
     - #0F0C24 #A350A3 #C1436D
+    
 
 all from https://designshack.net/articles/trends/best-website-color-schemes/
 

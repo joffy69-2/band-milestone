@@ -142,15 +142,17 @@ Technologies Used
 
 ---
 Deployment
->This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+=
+- This project has been deployed to github pages.
+    1. To deploy, log into https://github.com/"my-user-name"
+    2. Navigate to band-milestone
+    3. Navigate to settings
+    4. Navigate to GitHub Pages
+    5. Choose branch and press save 
 
->In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+    - You must change all asset links from ../assets to assets
 
->Different values for environment variables (Heroku Config Vars)?
->Different configuration files?
->Separate git branch?
->In addition, if it is not obvious, you should also describe how to run your code locally.
-
+    - To run locally, open a link to gitpod and select the correct workspace
 ---
 
 Credits

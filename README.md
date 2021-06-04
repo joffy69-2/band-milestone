@@ -25,7 +25,12 @@ The fictional band (I hope, I have checked and can't find one) The Real Faux Fur
 to promote their assault on the upper reaches of the charts. They need to enthuse their support and generate both more
 ticket sales and merchanising sales. They also want to increase the number of gigs they play.
 
-
+NB 
+===
+Please also see:
+- research.md 
+- design.md 
+- testing.md
 
 ---
 
@@ -257,12 +262,7 @@ Credits
 
 
 
-NB 
-===
-Please also see:
-- research.md 
-- design.md 
-- testing.md
+
 
 Things to remember:
     - three click rule

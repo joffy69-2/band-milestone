@@ -114,13 +114,17 @@ header > div {
 
 /* -------------------section frontpage-----------------------------------*/
 
-#bandpic{
+.bandpic{
     background-image: url(../pictures/band7.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /* from https://blog.ekohordan.com/posts/full-viewport-height-css/ */
     height: calc(100vh - 70px);   
+}
+
+#bandpic-contact{
+    height: calc(100vh - 100px);
 }
 
 .center {
@@ -235,8 +239,12 @@ thead{
     text-align: center;
 }
 
+#contact-page{
+    padding: 0px;
+}
+
 footer > div {
-    margin-top: 20px;
+    
 }
 
 .soc-med{

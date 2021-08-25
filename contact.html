@@ -39,14 +39,14 @@
         </div>
     </header>
 
-    <section id="contact-page container-fluid">
+    <section id="contact-page" class="container-fluid ">
         <div>
-            <div id="bandpic">
+            <div id="bandpic-contact" class="bandpic">
                 <div class="cen-con">
                     <h1 class="title font-size text-lgt shadow-drk">The Real Faux Furs</h1>
                 </div>
                 <div class="mid-pos">
-                    <form>
+                    <form action = "assets/js/post.js" method="POST"><!--need to write post.js to deal with data-->
                         <div class="row mb-3">
                             <label for="inputName" class="col-sm-3 col-form-label text-light">Your Name</label>
                             <div class="col-sm-9">
@@ -94,7 +94,7 @@
                         </div>
                         <div class="container">
                             <!-- from https://getbootstrap.com/docs/5.0/components/popovers/-->
-                            <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-bs-toggle="popover"
+                            <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-bs-toggle="popover" type="submit"
                                 data-bs-trigger="focus" data-bs-content="Not working">Send Message</a>
                         </div>
                     </form>

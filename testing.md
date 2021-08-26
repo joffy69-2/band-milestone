@@ -23,3 +23,14 @@ Bugs
 4. The buttons are not functional at the moment - an info popover has been added.
 5. Dashlane bug. My password manager, Dashlane, injects custom css and html into elements it thinks are form elements. This might be a good idea, but I would like to switch it off for development.
 ---
+
+|   location                |   feature      |   pass/fail     |   notes    |
+|:--------------------------|:---------------|:----------------|:-----------|
+|index/div id="drop-d-menu">|drop down       |pass             |7 drop downs|
+|drop-d-menu anchor home    |href=#frontpage |pass             |            |
+|drop-d-menu anchor history |href=#history   |1                |1          |
+|drop-d-menu anchor photo   |href=#photo     |3                |3          |
+|drop-d-menu anchor gig     |href=#frontpage |2                |2          |
+|drop-d-menu anchor shop    |href=#frontpage |2                |4          |
+|drop-d-menu anchor audio   |href=#frontpage
+|drop-d-menu anchor contact |href=#frontpage

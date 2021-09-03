@@ -48,3 +48,26 @@
 I think I'll be going for restrained and elegant - Iron maiden are definitely neither.
 
 
+e CSS you will need is simply
+
+.img-container {
+    width: 200px; /* whatever set width */
+    height: 100px;
+    display: inline-block; /* or you could float them */
+    overflow: hidden;
+}
+.img-container img {
+    width: 100%;
+}
+Share
+Improve this answer
+Follow
+answered May 22 '12 at 13:38
+
+Ana
+33.5k66 gold badges7474 silver badges119119 bronze badges
+Add a comment
+
+1
+
+Put the images in a wrapping element, such as a DIV, with a defined height and width and use overflow:hidden.

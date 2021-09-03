@@ -42,71 +42,75 @@
     <section id="contact-page" class="container-fluid ">
         <div>
             <div id="bandpic-contact" class="bandpic">
-                <div class="cen-con">
-                    <h1 class="title font-size text-lgt shadow-drk">The Real Faux Furs</h1>
-                </div>
-                <div class="mid-pos">
-                    <form action = "assets/js/post.js" method="POST"><!--need to write post.js to deal with data-->
-                        <div class="row mb-3">
-                            <label for="inputName" class="col-sm-3 col-form-label text-light">Your Name</label>
-                            <div class="col-sm-9">
+                <div style="position: relative;">
+                    <div class="cen-con">
+                        <h1 class="title font-size text-lgt shadow-drk">The Real Faux Furs</h1>
+                    </div>
+                    <div class="mid-pos">
+                        <form action="assets/js/post.js" method="POST">
+                            <!--need to write post.js to deal with data-->
+                            <div class="row mb-3">
+                                <label for="inputName" class="col-sm-3 col-form-label text-light">Your Name</label>
+                                <div class="col-sm-9">
 
-                                <input type="text" class="form-control" id="inputName">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label for="inputEmail" class="col-sm-3 col-form-label text-light">Your Email
-                                Address</label>
-                            <div class="col-sm-9">
-
-                                <input type="text" class="form-control" id="inputEmail">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label for="message-box" class="col-sm-3 col-form-label text-light">Your Message</label>
-                            <div class="col-sm-9">
-
-                                <textarea class="form-control" id="message-box" name="message-box" rows="4"
-                                    cols="50"></textarea>
-                            </div>
-                        </div>
-                        <fieldset class="row mb-3">
-                            <div class="input-group mb-3">
-
-                                <select class="form-select" id="fanprojour">
-                                    <option selected>You...</option>
-                                    <option value="1">are a fan</option>
-                                    <option value="2">are a promoter</option>
-                                    <option value="3">are a journalist</option>
-                                    <option value="4">want to know our availability</option>
-                                </select>
-                            </div>
-                        </fieldset>
-                        <div class="row mb-3">
-                            <div class="col-sm-10 offset-sm-2">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck1">
-                                    <label class="form-check-label text-light" for="gridCheck1">
-                                        You agree to our privacy statement
-                                    </label>
+                                    <input type="text" class="form-control" id="inputName">
                                 </div>
                             </div>
-                        </div>
-                        <div class="container">
-                            <!-- from https://getbootstrap.com/docs/5.0/components/popovers/-->
-                            <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-bs-toggle="popover" type="submit"
-                                data-bs-trigger="focus" data-bs-content="Not working">Send Message</a>
-                        </div>
-                    </form>
-                </div>
-                <div class="cen-con-bot">
-                    <h5 class="title font-size-privacy text-drk">The Real Faux Furs privacy statement: you agree to allow us to
-                        store this information. On demand, we will delete all copies</h5>
+                            <div class="row mb-3">
+                                <label for="inputEmail" class="col-sm-3 col-form-label text-light">Your Email
+                                    Address</label>
+                                <div class="col-sm-9">
+
+                                    <input type="text" class="form-control" id="inputEmail">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="message-box" class="col-sm-3 col-form-label text-light">Your Message</label>
+                                <div class="col-sm-9">
+
+                                    <textarea class="form-control" id="message-box" name="message-box" rows="4"
+                                        cols="50"></textarea>
+                                </div>
+                            </div>
+                            <fieldset class="row mb-3">
+                                <div class="input-group mb-3">
+
+                                    <select class="form-select" id="fanprojour">
+                                        <option selected>You...</option>
+                                        <option value="1">are a fan</option>
+                                        <option value="2">are a promoter</option>
+                                        <option value="3">are a journalist</option>
+                                        <option value="4">want to know our availability</option>
+                                    </select>
+                                </div>
+                            </fieldset>
+                            <div class="row mb-3">
+                                <div class="col-sm-10 offset-sm-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                        <label class="form-check-label text-light" for="gridCheck1">
+                                            You agree to our privacy statement
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <!-- from https://getbootstrap.com/docs/5.0/components/popovers/-->
+                                <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-bs-toggle="popover"
+                                    type="submit" data-bs-trigger="focus" data-bs-content="Not working">Send Message</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="cen-con-bot">
+                        <h5 class="title font-size-privacy text-drk">The Real Faux Furs privacy statement: you agree to
+                            allow us to
+                            store this information. On demand, we will delete all copies</h5>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <footer>
         <div>
 
